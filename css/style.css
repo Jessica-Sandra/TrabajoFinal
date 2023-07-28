@@ -1,0 +1,271 @@
+body{
+	margin:0px;
+	padding:0px;
+	background-color:#0B7DEE;
+	height: 50vh;
+	
+}
+.clearfix{
+	clear: both;
+}
+.resume-box{
+	width: 1000px;
+	height: 1600px;
+	margin: 0 auto;
+	background-color: white;
+}
+.box-outer{
+	padding:30px;
+}
+.box-1{
+	background-color: #ffffff;
+	width: 25%;
+	float: left;
+	height: 1600px;
+}
+
+.box-2{
+	width: 40%;
+	float: left;
+	padding: 20px;
+}
+.box-3{
+	width: 20%;
+	float: left;
+	padding: 20px;
+}
+#cuadro{
+    background: #ffffff;
+    height: 140px;
+    width: 120px;
+}
+#cuadros{
+ 
+    height: 60px;
+    width: 150px;
+}
+
+#cuadros1{
+    height: 40px;
+    width: 190px;
+    border: 1px solid black;
+    padding: 5px;
+    font-size: 30px;
+    text-align: center;
+    color: #d02c21;
+}
+.cuadros2{
+    height: 400px;
+    width: 280px;
+    background: #848587;
+}
+
+.cuadros3{
+    height: 1000px;
+    width: 280px;
+    background: #848587;
+}
+.icuadro{
+ background: red;
+ height: 40px;
+ width: 285px;
+ display: flex;
+ top: 50px;
+ align-items: center;
+ font-size: 20px;
+ color: #ffffff;
+ 
+}
+.profile{
+	width: 100%;
+}
+.content{
+	padding: 20px;
+}
+h1{
+	color: #ceced1;
+    font-family: system-ui;
+    font-weight: 300;
+    text-transform: uppercase;
+
+}
+p{
+	color: #ceced1;
+    font-family: system-ui;
+    font-weight: 300;
+    font-size: 14px;
+   
+}
+
+#progress {
+    background: #333;
+    border-radius: 13px;
+    height: 8px;
+    width: 100%;
+    padding: 3px;
+}
+
+#progress:after {
+    content: '';
+    display: block;
+    background: orange;
+    width: 50%;
+    height: 100%;
+    border-radius: 9px;
+}
+#progress1 {
+    background: #333;
+    border-radius: 13px;
+    height: 8px;
+    width: 100%;
+    padding: 3px;
+}
+
+#progress1:after {
+    content: '';
+    display: block;
+    background: orange;
+    width: 40%;
+    height: 100%;
+    border-radius: 9px;
+}
+#progress2 {
+    background: #333;
+    border-radius: 13px;
+    height: 8px;
+    width: 100%;
+    padding: 3px;
+}
+
+#progress2:after {
+    content: '';
+    display: block;
+    background: orange;
+    width: 80%;
+    height: 100%;
+    border-radius: 9px;
+}
+
+#progress3 {
+    background: #333;
+    border-radius: 13px;
+    height: 8px;
+    width: 100%;
+    padding: 3px;
+}
+
+#progress3:after {
+    content: '';
+    display: block;
+    background: orange;
+    width: 90%;
+    height: 100%;
+    border-radius: 9px;
+}
+.intro{text-align: center;}
+.intro h1{
+	font-size: 30px;
+	font-weight: bold;
+	color: #171717;
+
+}
+.hr{
+	height: 15px;
+    border: none;
+    background-color: yellow;
+    margin: -45px 20px;
+}
+.intro-p{
+	color: #7d7d7d;
+    font-family: system-ui;
+    font-weight: 300;
+    font-size: 15px;
+    margin-top: 13%!important;
+    font-weight: 400;
+}
+.intro p{
+	color: #7d7d7d;
+    font-family: system-ui;
+    font-weight: 300;
+    font-size: 15px;
+    margin-top: -5px;
+    font-weight: 400;
+}
+.content-2{
+	padding-top: 5px;
+}
+.head{
+	color: #d02c21;
+    font-family: system-ui;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin:0px;
+    font-size: 30px;
+}
+.para-1{
+	font-size: 27px;
+    text-transform: uppercase;
+    color: #0c0b0b;
+    font-weight: 400;
+    margin: 5px 0px;
+    margin-top: 10px;
+}
+.para-2{
+	font-size: 25px;
+	text-transform: capitalize;
+    color: #7d7d7d;
+    font-weight: 100;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+.icon{
+    width: 40px;
+    display: block;
+    margin: auto;
+    
+}
+.texto1{
+    text-align: center;
+    font-size: 20px;
+}
+
+.textos{
+    color: #010101;
+    text-align: center;
+}
+.barra{
+    margin: 20px;
+    width: 80%;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #151414;
+}
+.progreso{
+    height: 20px;
+    border-radius: 10px;
+    background-color: #ee0b0b;
+}
+footer {
+    background-color: #271db4;
+    padding: 20px;
+    text-align: center;
+}
+
+.whatsapp-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .whatsapp-icon img {
+    width: 40px;
+    height: 40px;
+  }
